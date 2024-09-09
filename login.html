@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <style>
+        .container{
+            border: 2px solid whitesmoke;
+            width: 340px;
+            height: 280px;
+            margin: auto;
+            margin-top: 170px;
+             background-color:white(243, 241, 238);
+             border-radius: 10px;
+             box-shadow: 2px 2px 2px rgb(202, 201, 201);
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+         
+        <center>
+        <form id="loginForm">
+            <table>
+                <tr>
+                    <td><h1>Login</h1></td>
+                </tr>
+                <tr>
+                     <td>
+                        <label for="username">Username</label>
+                     </td>
+                </tr>
+       
+                <tr>
+                   <td>
+                    <input type="text" id="username" name="username" autocomplete="off" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                     <label for="password">Password</label>
+                    </td>
+                </tr>  
+                <tr>
+                     <td>
+                    <input type="password" id="password" name="password" autocomplete="off" >
+                </td>
+                </tr>  
+
+                </tr>  
+                    <tr>
+                       <td>
+                        <button type="submit">Login</button>&nbsp<a href="register.html">Register!</a>
+                    </td>
+                </tr>  
+            
+        </table>
+        </form>
+    </center>
+        <p id="loginMessage"></p>
+        
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
